@@ -1,0 +1,6 @@
+#target list for release robot
+#comment a line with a "#" charactor at head of line
+#record format
+#CREATE_BAT_FILE_NAME COMPILER_DEF_FILE_NAME [-DMACRO_NAME]* 
+create_update.bat compiler.def -DCUSTOMER_MACRO=XXXX -DANOTHER_MACRO
+create_update_2.bat compiler_2.def -DCUSTOMER_MACRO=YYYYY
